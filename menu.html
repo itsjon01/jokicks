@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JOkicks - Menu</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="index.html" class="logo">
+        <img src="img/JOkicks.png" alt="JO Kicks Logo">
+    </a>
+
+    <nav class="navbar">
+        <a href="index.html#home">home</a>
+        <a href="index.html#about">about</a>
+        <a href="menu.html" class="active">menu</a>
+        <a href="index.html#products">products</a>
+        <a href="index.html#review">review</a>
+        <a href="index.html#contact">contact</a>
+    </nav>
+
+    <div class="search-container">
+        <div class="search-form">
+            <input type="search" id="search-box" placeholder="search shoes... (e.g., men's, running, casual)">
+            <button type="submit" class="fas fa-search" id="search-btn"></button>
+        </div>
+        <div class="fas fa-bars" id="menu-btn"></div>
+    </div>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- menu section starts  -->
+
+<section class="menu" id="menu">
+
+    <div class="breadcrumb">
+        <a href="index.html">Home</a> > <span>Menu</span>
+    </div>
+
+    <h1 class="heading"> our <span>collection</span> </h1>
+
+    <div id="search-results" class="search-results">
+        <div id="search-message" class="search-message"></div>
+    </div>
+
+    <div class="box-container" id="products-container">
+
+        <div class="box product-item" data-name="men's running shoes" data-category="men running">
+            <img src="img/runningshoes.jpg" alt="Men's Shoes">
+            <h3>Men's Running Shoes</h3>
+            <div class="price">₱3500/- <span>₱8000/-</span></div>
+        </div>
+
+        <div class="box product-item" data-name="men's casual shoes" data-category="men casual">
+            <img src="img/ph-5.jpg" alt="Men's Shoes">
+            <h3>Men's Casual Shoes</h3>
+            <div class="price">₱5000/- <span>₱6000/-</span></div>
+        </div>
+
+        <div class="box product-item" data-name="women's sneakers" data-category="women sneakers">
+            <img src="img/womensneaker.jpg" alt="Women's Shoes">
+            <h3>Women's Sneakers</h3>
+            <div class="price">₱2500/- <span>₱2800/-</span></div>
+        </div>
+
+        <div class="box product-item" data-name="women's sports shoes" data-category="women sports">
+            <img src="img/womensports.jpg" alt="Women's Shoes">
+            <h3>Women's Sports Shoes</h3>
+            <div class="price">₱1800/-<span>₱3500/-</span></div>
+        </div>
+
+        <div class="box product-item" data-name="men's formal shoes" data-category="men formal">
+            <img src="img/ph-6.jpg" alt="Men's Shoes">
+            <h3>Men's Formal Shoes</h3>
+            <div class="price">₱1500/- <span>₱2099/-</span></div>
+        </div>
+
+        <div class="box product-item" data-name="premium collection" data-category="premium">
+            <img src="img/ph-3.jpg" alt="Premium Shoes">
+            <h3>Premium Collection</h3>
+            <div class="price">₱7500/- <span>₱9999/-</span></div>
+        </div>
+
+        <div class="box product-item" data-name="limited edition" data-category="limited">
+            <img src="img/th-1.jpg" alt="Limited Edition">
+            <h3>Limited Edition</h3>
+            <div class="price">₱8500/- <span>₱12000/-</span></div>
+        </div>
+
+        <div class="box product-item" data-name="Men's collection" data-category="kids">
+            <img src="img/th-2.jpg" alt="Men's Shoes">
+            <h3>Men's Collection</h3>
+            <div class="price">₱1200/- <span>₱2000/-</span></div>
+        </div>
+        <div class="box product-item" data-name="limited edition" data-category="limited">
+            <img src="img/background.jpg" alt="Limited Edition">
+            <h3>Limited Edition</h3>
+            <div class="price">₱10500/- <span>₱15000/-</span></div>
+        </div>
+
+        <div class="box product-item" data-name="Men's collection" data-category="kids">
+            <img src="img/barefoot.jpg" alt="Men's Shoes">
+            <h3>Men's Barefoot Shoes</h3>
+            <div class="price">₱1200/- <span>₱2000/-</span></div>
+        </div>
+        <div class="box product-item" data-name="limited edition" data-category="limited">
+            <img src="img/casualsneaker.jpg" alt="Limited Edition">
+            <h3>Casual Sneakers</h3>
+            <div class="price">₱2500/- <span>₱5000/-</span></div>
+        </div>
+
+        <div class="box product-item" data-name="Men's collection" data-category="kids">
+            <img src="img/menbasketball.jpg" alt="Men's Shoes">
+            <h3>Men's Basketball Shoes</h3>
+            <div class="price">₱3000/- <span>₱4000/-</span></div>
+        </div>
+
+
+        <div class="box product-item" data-name="limited edition" data-category="limited">
+            <img src="img/menblackandwhite.jpg" alt="Limited Edition">
+            <h3>Men's Black&White Shoes</h3>
+            <div class="price">₱5500/- <span>₱8000/-</span></div>
+        </div>
+
+        <div class="box product-item" data-name="Men's collection" data-category="kids">
+            <img src="img/mensshoes.jpg" alt="Men's Shoes">
+            <h3>Luxury Designer Shoes</h3>
+            <div class="price">₱10000/- <span>₱15000/-</span></div>
+        </div>
+        <div class="box product-item" data-name="limited edition" data-category="limited">
+            <img src="img/ph-1.jpg" alt="Limited Edition">
+            <h3>Women's White Shoes</h3>
+            <div class="price">₱999/- <span>₱1500/-</span></div>
+        </div>
+
+        <div class="box product-item" data-name="Men's collection" data-category="kids">
+            <img src="img/ph-2.jpg" alt="Men's Shoes">
+            <h3>Men's Sneakers Shoes</h3>
+            <div class="price">₱1400/- <span>₱2200/-</span></div>
+        </div>
+        <div class="box product-item" data-name="limited edition" data-category="limited">
+            <img src="img/ph-4.jpg" alt="Limited Edition">
+            <h3>Nike Shoes</h3>
+            <div class="price">₱2500/- <span>₱3000/-</span></div>
+        </div>
+
+        <div class="box product-item" data-name="Men's collection" data-category="kids">
+            <img src="img/puma.jpg" alt="Men's Shoes">
+            <h3>Puma Men's Shoes</h3>
+            <div class="price">₱2500/- <span>₱5000/-</span></div>
+        </div>
+
+
+        <div class="box product-item" data-name="limited edition" data-category="limited">
+            <img src="img/satanshoes.png" alt="Limited Edition">
+            <h3>Satan Shoes</h3>
+            <div class="price">₱4599/- <span>₱6000/-</span></div>
+        </div>
+
+        <div class="box product-item" data-name="Men's collection" data-category="kids">
+            <img src="img/slip resistant shoes.jpg" alt="Men's Shoes">
+            <h3>Men's Slip Resistant Shoes</h3>
+            <div class="price">₱3000/- <span>₱5000/-</span></div>
+        </div>
+        <div class="box product-item" data-name="limited edition" data-category="limited">
+            <img src="img/th-4.jpg" alt="Limited Edition">
+            <h3>Converse Chuck Taylor Shoes</h3>
+            <div class="price">₱2999/- <span>₱4999/-</span></div>
+        </div>
+
+        <div class="box product-item" data-name="Men's collection" data-category="kids">
+            <img src="img/women athletic shoes.jpg" alt="Men's Shoes">
+            <h3>Women's Athletic Shoes</h3>
+            <div class="price">₱2299/- <span>₱3999/-</span></div>
+        </div>
+        <div class="box product-item" data-name="limited edition" data-category="limited">
+            <img src="img/womensneaker.jpg" alt="Limited Edition">
+            <h3>Women's Sneaker Shoes</h3>
+            <div class="price">₱2500/- <span>₱3000/-</span></div>
+        </div>
+
+        <div class="box product-item" data-name="Men's collection" data-category="kids">
+            <img src="img/airjordan.jpg" alt="Men's Shoes">
+            <h3>Women's Air Jordan Shoes</h3>
+            <div class="price">₱2999/- <span>₱5999/-</span></div>
+        </div>
+
+
+    </div>
+
+</section>
+
+<!-- menu section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="links">
+        <a href="index.html">home</a>
+        <a href="index.html#about">about</a>
+        <a href="menu.html">menu</a>
+        <a href="index.html#products">products</a>
+        <a href="index.html#review">review</a>
+        <a href="index.html#contact">order</a>
+    </div>
+
+</section>
+
+<!-- footer section ends -->
+
+<script>
+// Search functionality
+document.addEventListener('DOMContentLoaded', function() {
+    const searchBox = document.getElementById('search-box');
+    const searchBtn = document.getElementById('search-btn');
+    const products = document.querySelectorAll('.product-item');
+    const productsContainer = document.getElementById('products-container');
+    const searchMessage = document.getElementById('search-message');
+    const searchResults = document.getElementById('search-results');
+    
+    // Function to perform search
+    function performSearch() {
+        const searchTerm = searchBox.value.toLowerCase().trim();
+        
+        // Clear previous results message
+        searchMessage.innerHTML = '';
+        searchMessage.className = 'search-message';
+        
+        // Show all products if search is empty
+        if (searchTerm === '') {
+            products.forEach(product => {
+                product.style.display = 'block';
+            });
+            searchResults.style.display = 'none';
+            return;
+        }
+        
+        let foundProducts = 0;
+        
+        // Filter products based on search term
+        products.forEach(product => {
+            const productName = product.getAttribute('data-name');
+            const productCategory = product.getAttribute('data-category');
+            const productTitle = product.querySelector('h3').textContent.toLowerCase();
+            
+            // Check if search term matches product name, category, or title
+            if (productName.includes(searchTerm) || 
+                productCategory.includes(searchTerm) || 
+                productTitle.includes(searchTerm)) {
+                product.style.display = 'block';
+                foundProducts++;
+            } else {
+                product.style.display = 'none';
+            }
+        });
+        
+        // Show search results message
+        searchResults.style.display = 'block';
+        if (foundProducts > 0) {
+            searchMessage.innerHTML = `Found ${foundProducts} product${foundProducts > 1 ? 's' : ''} matching "<strong>${searchTerm}</strong>"`;
+            searchMessage.className = 'search-message success';
+        } else {
+            searchMessage.innerHTML = `No products found for "<strong>${searchTerm}</strong>". Try searching for: men's, women's, running, casual, sports, formal, premium, limited, kids`;
+            searchMessage.className = 'search-message error';
+            
+            // Show all products after 3 seconds if no results
+            setTimeout(() => {
+                if (searchBox.value === searchTerm) { // Check if search hasn't changed
+                    products.forEach(product => {
+                        product.style.display = 'block';
+                    });
+                    searchResults.style.display = 'none';
+                }
+            }, 3000);
+        }
+    }
+    
+    // Search on button click
+    searchBtn.addEventListener('click', function(e) {
+        e.preventDefault();
+        performSearch();
+    });
+    
+    // Search on Enter key
+    searchBox.addEventListener('keyup', function(e) {
+        if (e.key === 'Enter') {
+            performSearch();
+        }
+    });
+    
+    // Real-time search as user types (optional - uncomment if you want instant search)
+    /*
+    searchBox.addEventListener('input', function() {
+        performSearch();
+    });
+    */
+    
+    // Clear search when clicking the search box (optional)
+    searchBox.addEventListener('focus', function() {
+        if (this.value === 'search shoes... (e.g., men\'s, running, casual)') {
+            this.value = '';
+        }
+    });
+    
+    // Restore placeholder when search box loses focus and is empty
+    searchBox.addEventListener('blur', function() {
+        if (this.value === '') {
+            this.value = 'search shoes... (e.g., men\'s, running, casual)';
+        }
+    });
+});
+</script>
+
+</body>
+</html>
